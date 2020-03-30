@@ -11,8 +11,9 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://79qmx83o1r-flywheel.netdna-ssl.com/wp-content/uploads/2018/07/intrigue-logo-white-1.png'),
+//            image: NetworkImage(
+//                'https://79qmx83o1r-flywheel.netdna-ssl.com/wp-content/uploads/2018/07/intrigue-logo-white-1.png'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
